@@ -8,7 +8,8 @@ module.exports = function(grunt) {
         cssDir: "src/css",
         imagesDir: "src/img",
         fontsDir: "src/fonts",
-        javascriptsDir: "src/js"
+        javascriptsDir: "src/js",
+        require: ['sassy-buttons', 'breakpoint', 'breakpoint-slicer']
       },
       dev: {
         options: {
@@ -43,16 +44,34 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: "src/sass/**/*.{sass,scss}",
-        tasks: ["compass:dev"]
+        tasks: ["compass:dev"],
+        options: {
+          livereload: true,
+          spawn: true
+        }
       },
       js: {
         files: "src/js/dev/**/*.js",
-        tasks: ["jshint:all", "concat:app"]
+        tasks: ["jshint:all", "concat:app"],
+        options: {
+          livereload: true,
+          spawn: true
+        }
       }
-    }
+    },
+    connect: {
+        server: {
+          options: {
+            port: 8080,
+            base: 'src',
+            keepalive: true
+          }
+        }
+      }
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-concat');

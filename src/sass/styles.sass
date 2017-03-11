@@ -1,2 +1,18 @@
+@import "compass"
+@import "sassy-buttons"
+@import 'breakpoint'
+@import 'breakpoint-slicer'
+@import 'base'
+
+$slicer-breakpoints: 0 400px 600px 800px 1050px
+
 body
-	background-color: red
+	// background-color: red
+
+.boton
+	.no-touch &
+		+at(2)
+			+sassy-button("shiny", 15px, 26px, #ffd71a, #ffaa1a)
+		+at(1)
+			+sassy-button("shiny", 15px, 26px, #09f, #06f)
+

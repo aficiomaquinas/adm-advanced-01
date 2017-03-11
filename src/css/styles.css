@@ -1,4 +1,123 @@
-/* line 1, ../sass/styles.sass */
+/* line 1, ../sass/_base.sass */
 body {
-  background-color: red;
+  font-size: 1.2em;
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  /* line 13, ../sass/styles.sass */
+  .no-touch .boton {
+    font-size: 26px;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    cursor: pointer;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFD71A', endColorstr='#FFB39400');
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZWQ5YSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZkNzFhIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZhYTFhIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffed9a), color-stop(50%, #ffd71a), color-stop(100%, #ffaa1a));
+    background: -moz-linear-gradient(#ffed9a, #ffd71a 50%, #ffaa1a);
+    background: -webkit-linear-gradient(#ffed9a, #ffd71a 50%, #ffaa1a);
+    background: linear-gradient(#ffed9a, #ffd71a 50%, #ffaa1a);
+    -moz-box-shadow: #fffbe6 0 1px 0 inset;
+    -webkit-box-shadow: #fffbe6 0 1px 0 inset;
+    box-shadow: #fffbe6 0 1px 0 inset;
+    border: 1px solid #ffa101;
+    color: white;
+    text-shadow: #f3c800 0 -1px 0;
+  }
+  /* line 15, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:hover {
+    text-decoration: none;
+  }
+  /* line 24, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:hover {
+    background-color: #ffaa1a;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZWI4ZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZhYTFhIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjA5NzAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffeb8f), color-stop(50%, #ffaa1a), color-stop(100%, #f09700));
+    background: -moz-linear-gradient(#ffeb8f, #ffaa1a 50%, #f09700);
+    background: -webkit-linear-gradient(#ffeb8f, #ffaa1a 50%, #f09700);
+    background: linear-gradient(#ffeb8f, #ffaa1a 50%, #f09700);
+  }
+  /* line 27, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:active {
+    -moz-box-shadow: #f09700 0 1px 2px inset;
+    -webkit-box-shadow: #f09700 0 1px 2px inset;
+    box-shadow: #f09700 0 1px 2px inset;
+  }
+  /* line 6, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton.disabled, .no-touch .boton[disabled] {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    background: #ffaa1a;
+    cursor: default;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
+  .no-touch .boton::-moz-focus-inner {
+    padding: 0 !important;
+    margin: -1px !important;
+  }
+}
+@media (max-width: 400px) {
+  /* line 13, ../sass/styles.sass */
+  .no-touch .boton {
+    font-size: 26px;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    cursor: pointer;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF0099FF', endColorstr='#FF005C99');
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzgwY2NmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5OWZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2NmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80ccff), color-stop(50%, #0099ff), color-stop(100%, #0066ff));
+    background: -moz-linear-gradient(#80ccff, #0099ff 50%, #0066ff);
+    background: -webkit-linear-gradient(#80ccff, #0099ff 50%, #0066ff);
+    background: linear-gradient(#80ccff, #0099ff 50%, #0066ff);
+    -moz-box-shadow: #ccebff 0 1px 0 inset;
+    -webkit-box-shadow: #ccebff 0 1px 0 inset;
+    box-shadow: #ccebff 0 1px 0 inset;
+    border: 1px solid #005ce6;
+    color: white;
+    text-shadow: #0082d9 0 -1px 0;
+  }
+  /* line 15, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:hover {
+    text-decoration: none;
+  }
+  /* line 24, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:hover {
+    background-color: #06f;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc1YzhmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA2NmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA1NmQ2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #75c8ff), color-stop(50%, #0066ff), color-stop(100%, #0056d6));
+    background: -moz-linear-gradient(#75c8ff, #0066ff 50%, #0056d6);
+    background: -webkit-linear-gradient(#75c8ff, #0066ff 50%, #0056d6);
+    background: linear-gradient(#75c8ff, #0066ff 50%, #0056d6);
+  }
+  /* line 27, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton:active {
+    -moz-box-shadow: #0056d6 0 1px 2px inset;
+    -webkit-box-shadow: #0056d6 0 1px 2px inset;
+    box-shadow: #0056d6 0 1px 2px inset;
+  }
+  /* line 6, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  .no-touch .boton.disabled, .no-touch .boton[disabled] {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    background: #06f;
+    cursor: default;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-2.3.0/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
+  .no-touch .boton::-moz-focus-inner {
+    padding: 0 !important;
+    margin: -1px !important;
+  }
 }
