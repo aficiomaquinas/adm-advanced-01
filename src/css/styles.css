@@ -3,8 +3,40 @@ body {
   font-size: 1.2em;
 }
 
+/* line 14, ../sass/styles.sass */
+.wrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 17, ../sass/styles.sass */
+.col {
+  border: 1px solid red;
+}
+
+/* line 19, ../sass/styles.sass */
+.col-izquierda {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+/* line 21, ../sass/styles.sass */
+.col-derecha {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
 @media (min-width: 401px) and (max-width: 600px) {
-  /* line 13, ../sass/styles.sass */
+  /* line 25, ../sass/styles.sass */
   .no-touch .boton {
     font-size: 26px;
     padding: 0.5em 1.5em;
@@ -63,7 +95,7 @@ body {
   }
 }
 @media (max-width: 400px) {
-  /* line 13, ../sass/styles.sass */
+  /* line 25, ../sass/styles.sass */
   .no-touch .boton {
     font-size: 26px;
     padding: 0.5em 1.5em;

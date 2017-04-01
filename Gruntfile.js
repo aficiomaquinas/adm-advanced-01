@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         imagesDir: "src/img",
         fontsDir: "src/fonts",
         javascriptsDir: "src/js",
-        require: ['sassy-buttons', 'breakpoint', 'breakpoint-slicer']
+        require: ['sassy-buttons', 'breakpoint', 'breakpoint-slicer', 'susy', 'modular-scale']
       },
       dev: {
         options: {

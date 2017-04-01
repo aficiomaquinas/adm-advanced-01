@@ -2,12 +2,24 @@
 @import "sassy-buttons"
 @import 'breakpoint'
 @import 'breakpoint-slicer'
+@import 'susy'
+@import 'modular-scale'
 @import 'base'
 
 $slicer-breakpoints: 0 400px 600px 800px 1050px
 
 body
 	// background-color: red
+
+.wrapper
+	+container(500px)
+
+.col
+	border: 1px solid red
+.col-izquierda
+	+span(2 of 12)
+.col-derecha
+	+span(9 of 12)
 
 .boton
 	.no-touch &
